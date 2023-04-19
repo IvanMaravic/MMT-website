@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="index.css">
 
     <title>Tenis</title>
 </head>
@@ -35,10 +35,10 @@
     </ul>
     <h5>Poveznice na vanjske stranice o tenisu</h5>
     <ul>
-      <li><a href="https://www.itftennis.com/">Međunarodna teniska federacija (ITF)</a>- službena organizacija koja upravlja međunarodnim teniskim turnirima:</li>
-      <li><a href="https://www.atptour.com/">ATP Tour</a></li>
-      <li><a href="https://hts.hr/">Hrvatski teniski savez (HTS)</a> - službena organizacija koja upravlja teniskim turnirima u Hrvatskoj:</li>
-      <li><a href="https://www.daviscup.com/">Davis Cup</a></li>
+      <li><a href="https://www.itftennis.com/">Međunarodna teniska federacija (ITF)</a>- službena organizacija koja upravlja međunarodnim teniskim turnirima</li>
+      <li><a href="https://www.atptour.com/">ATP Tour</a> - Službena stranica muškog profesionalnog tenisa</li>
+      <li><a href="https://hts.hr/">Hrvatski teniski savez (HTS)</a> - Službena organizacija koja upravlja teniskim turnirima u Hrvatskoj</li>
+      <li><a href="https://www.daviscup.com/">Davis Cup</a> - Međunarodno ekipno natjecanje u muškom tenisu</li>
     </ul>
     <video width="320" height="240" controls>
       <source src="Videi\Mansour Bahrami trick underarm serve Wimbledon 2019.mp4" type="video/mp4">

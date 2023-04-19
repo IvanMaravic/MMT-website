@@ -11,35 +11,6 @@
       imageElement.webkitRequestFullscreen();
     }
   }
-
-	function toggleTextInfoLM() {
-		var additionalText = document.getElementById("infoLM-text");
-		if (additionalText.style.display === "none") {
-			additionalText.style.display = "block";
-		} else {
-			additionalText.style.display = "none";
-		}
-	}
-	<style>
-		#infoLM-text {
-			display: none;
-		}
-	</style>
-
-
-	function toggleTextInfoIM() {
-		var additionalText = document.getElementById("infoIM-text");
-		if (additionalText.style.display === "none") {
-			additionalText.style.display = "block";
-		} else {
-			additionalText.style.display = "none";
-		}
-	}
-	<style>
-		#infoIM-text {
-			display: none;
-		}
-	</style>
 </script>
 
 
@@ -51,7 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="index.css">
     <title>Omiljeni sport</title>
 </head>
 <body>        
@@ -84,20 +55,6 @@
     <li><a href="https://www.transfermarkt.com/">Transfermarkt</a> - web stranica koja se bavi transferima nogometaša, statistikama, i drugim informacijama o igračima, klubovima, i ligama.</li>
   </ul>
 
-  <!-- slika br.1 Luka --> 
-  <img src="Slike\Luka.jpg" alt="Luka Malnar" width=90 height=200 onclick="toggleImage('slikaLuka')" id ="slikaLuka">
-
-
-	<text onclick="toggleTextInfoLM()">Luka Malnar</text>
-	<p id="infoLM-text">Mjesto rođenja: <a href="https://nasice.hr/">Našice</a><br>Datum rođenja: 26.4.2000.<br>Mjesto prebivališta: <a href="https://nasice.hr/">Našice</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>.</p>
-
-  <!-- slika br.2 Ivan --> 
-  <img src="Slike\Ivan1.jpg" alt="Ivan Maravić" width=90 height=200 onclick="toggleImage('slikaIvan')" id ="slikaIvan">
-
-  <text onclick="toggleTextInfoIM()">Ivan Maravić</text>
-	<p id="infoIM-text">Mjesto rođenja: <a href="https://www.pozega.hr/">Požega</a><br>Datum rođenja: 12.5.2000.<br>Mjesto prebivališta: <a href="https://www.kutjevo.hr/">Kutjevo</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>.</p>
-
-
   <p>Krivulja Roberta Carlosa</p>
   <video width="320" height="240" controls>
     <source src="Videi\Roberto Carlos Free Kick Goal vs France 1997.mp4" type="video/mp4">
@@ -121,7 +78,19 @@
     <source src="Audio\Gol Brune Petkovića vrijedan 17 svjetskih glasova.mp3" type="audio/mp3">
     Your browser does not support the audio element.
   </audio>
+  <p></p>
 
+
+  <!-- slika br.1 Luka --> 
+  <img src="Slike\Luka.jpg" alt="Luka Malnar" width=55 height=110 onclick="toggleImage('slikaLuka')" id ="slikaLuka">
+  <text onclick="toggleText()">Luka Malnar</text>
+  <p id="additional-text">Mjesto rođenja: Našice<br>Datum rođenja: 26.4.2000.<br>Mjesto prebivališta: Našice.</p>
+
+  <!-- slika br.2 Ivan --> 
+  <img src="Slike\Ivan1.jpg" alt="Ivan Maravić" width=55 height=110 onclick="toggleImage('slikaIvan')" id ="slikaIvan">
+
+  <text onclick="toggleText()">Ivan Maravić</text>
+  <p id="additional-text1">Mjesto rođenja: Požega<br>Datum rođenja: 12.5.2000.<br>Mjesto prebivališta: Kutjevo.</p>
   
-  </body>
+</body>
 </html>
