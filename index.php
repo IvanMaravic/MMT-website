@@ -8,6 +8,38 @@
     <link rel="stylesheet" href="">
 
     <title>Omiljeni sport</title>
+
+    <script>
+		function toggleTextInfoLM() {
+			var additionalText = document.getElementById("infoLM-text");
+			if (additionalText.style.display === "none") {
+				additionalText.style.display = "block";
+			} else {
+				additionalText.style.display = "none";
+			}
+		}
+	</script>
+	<style>
+		#infoLM-text {
+			display: none;
+		}
+	</style>
+
+<script>
+		function toggleTextInfoIM() {
+			var additionalText = document.getElementById("infoIM-text");
+			if (additionalText.style.display === "none") {
+				additionalText.style.display = "block";
+			} else {
+				additionalText.style.display = "none";
+			}
+		}
+	</script>
+	<style>
+		#infoIM-text {
+			display: none;
+		}
+	</style>
 </head>
 
 <body>        
@@ -66,6 +98,54 @@ Your browser does not support the video tag.
   Your browser does not support the audio element.
 </audio>
 
+
+<!-- slika br.1 Luka --> 
+<script>
+    function toggleLuka() {
+      var image = document.getElementById("image");
+      if (image.style.display === "none") {
+        image.style.display = "block";
+      } else {
+        image.style.display = "none";
+      }
+    }
+  </script>
+</head>
+<body>
+
+<img src="Slike\Luka.jpg" alt="Luka Malnar" width=90 height=200 onclick="toggleLuka()">
+<div id="image">
+    <img src="Slike\Luka.jpg" alt="Luka Malnar" width=922 height=2048>
+  </div>
+	</script>
+
+	<text onclick="toggleTextInfoLM()">Luka Malnar</text>
+	<p id="infoLM-text">Mjesto rođenja: <a href="https://nasice.hr/">Našice</a><br>Datum rođenja: 26.4.2000.<br>Mjesto prebivališta: <a href="https://nasice.hr/">Našice</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>.</p>
+
+  <!-- slika br.2 Ivan --> 
+ <script>
+    function toggleIvan() {
+      var image = document.getElementById("image2");
+      if (image.style.display === "none") {
+        image.style.display = "block";
+      } else {
+        image.style.display = "none";
+      }
+    }
+  </script>
+</head>
+
+<img src="Slike\ivan1.jpg" alt="Ivan Maravić" width=90 height=200 onclick="toggleIvan()">
+<div id="image2">
+    <img src="Slike\Ivan1.jpg" alt="Ivan Maravić" width=1200 height=1950>
+  </div>
+	</script>
+
+  <text onclick="toggleTextInfoIM()">Ivan Maravić</text>
+	<p id="infoIM-text">Mjesto rođenja: <a href="https://www.pozega.hr/">Požega</a><br>Datum rođenja: 12.5.2000.<br>Mjesto prebivališta: <a href="https://www.kutjevo.hr/">Kutjevo</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>.</p>
+
+
+</head>
 
 
 </html>
