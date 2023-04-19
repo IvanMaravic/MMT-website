@@ -11,6 +11,35 @@
       imageElement.webkitRequestFullscreen();
     }
   }
+
+	function toggleTextInfoLM() {
+		var additionalText = document.getElementById("infoLM-text");
+		if (additionalText.style.display === "none") {
+			additionalText.style.display = "block";
+		} else {
+			additionalText.style.display = "none";
+		}
+	}
+	<style>
+		#infoLM-text {
+			display: none;
+		}
+	</style>
+
+
+	function toggleTextInfoIM() {
+		var additionalText = document.getElementById("infoIM-text");
+		if (additionalText.style.display === "none") {
+			additionalText.style.display = "block";
+		} else {
+			additionalText.style.display = "none";
+		}
+	}
+	<style>
+		#infoIM-text {
+			display: none;
+		}
+	</style>
 </script>
 
 
