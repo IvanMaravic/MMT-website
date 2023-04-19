@@ -88,14 +88,14 @@
   <img src="Slike\Luka.jpg" alt="Luka Malnar" width=90 height=200 onclick="toggleImage('slikaLuka')" id ="slikaLuka">
 
 
-	<text onclick="toggleText()">Luka Malnar</text>
-	<p id="additional-text">Mjesto rođenja: Našice<br>Datum rođenja: 26.4.2000.<br>Mjesto prebivališta: Našice.</p>
+	<text onclick="toggleTextInfoLM()">Luka Malnar</text>
+	<p id="infoLM-text">Mjesto rođenja: <a href="https://nasice.hr/">Našice</a><br>Datum rođenja: 26.4.2000.<br>Mjesto prebivališta: <a href="https://nasice.hr/">Našice</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>.</p>
 
   <!-- slika br.2 Ivan --> 
   <img src="Slike\Ivan1.jpg" alt="Ivan Maravić" width=90 height=200 onclick="toggleImage('slikaIvan')" id ="slikaIvan">
 
-	<text onclick="toggleText()">Ivan Maravić</text>
-	<p id="additional-text1">Mjesto rođenja: Požega<br>Datum rođenja: 12.5.2000.<br>Mjesto prebivališta: Kutjevo.</p>
+  <text onclick="toggleTextInfoIM()">Ivan Maravić</text>
+	<p id="infoIM-text">Mjesto rođenja: <a href="https://www.pozega.hr/">Požega</a><br>Datum rođenja: 12.5.2000.<br>Mjesto prebivališta: <a href="https://www.kutjevo.hr/">Kutjevo</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>.</p>
 
 
   <p>Krivulja Roberta Carlosa</p>
