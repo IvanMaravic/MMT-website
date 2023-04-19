@@ -11,6 +11,35 @@
       imageElement.webkitRequestFullscreen();
     }
   }
+
+  function toggleTextInfoLM() {
+		var additionalText = document.getElementById("infoLM-text");
+		if (additionalText.style.display === "none") {
+			additionalText.style.display = "block";
+		} else {
+			additionalText.style.display = "none";
+		}
+	}
+/* 	<style>
+		#infoLM-text {
+			display: none;
+		}
+	</style> */
+
+
+	function toggleTextInfoIM() {
+		var additionalText = document.getElementById("infoIM-text");
+		if (additionalText.style.display === "none") {
+			additionalText.style.display = "block";
+		} else {
+			additionalText.style.display = "none";
+		}
+	}
+/* 	<style>
+		#infoIM-text {
+			display: none;
+		}
+	</style> */
 </script>
 
 
@@ -81,16 +110,18 @@
   <p></p>
 
 
+
   <!-- slika br.1 Luka --> 
   <img src="Slike\Luka.jpg" alt="Luka Malnar" width=55 height=110 onclick="toggleImage('slikaLuka')" id ="slikaLuka">
-  <text onclick="toggleText()">Luka Malnar</text>
-  <p id="additional-text">Mjesto rođenja: Našice<br>Datum rođenja: 26.4.2000.<br>Mjesto prebivališta: Našice.</p>
+	<text onclick="toggleTextInfoLM()">Luka Malnar</text>
+	<p id="infoLM-text">Mjesto rođenja: <a href="https://nasice.hr/">Našice</a><br>Datum rođenja: 26.4.2000.<br>Mjesto prebivališta: <a href="https://nasice.hr/">Našice</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>.</p>
 
   <!-- slika br.2 Ivan --> 
   <img src="Slike\Ivan1.jpg" alt="Ivan Maravić" width=55 height=110 onclick="toggleImage('slikaIvan')" id ="slikaIvan">
 
-  <text onclick="toggleText()">Ivan Maravić</text>
-  <p id="additional-text1">Mjesto rođenja: Požega<br>Datum rođenja: 12.5.2000.<br>Mjesto prebivališta: Kutjevo.</p>
-  
+  <text onclick="toggleTextInfoIM()">Ivan Maravić</text>
+	<p id="infoIM-text">Mjesto rođenja: <a href="https://www.pozega.hr/">Požega</a><br>Datum rođenja: 12.5.2000.<br>Mjesto prebivališta: <a href="https://www.kutjevo.hr/">Kutjevo</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>
+  <br>Bavim li se ja ovim sportom ili ga samo volim: Trenirao sam u mlađim godinama, ali sada samo uživam u gledanju nogometa na televiziji<img src="Slike\footballSticker.png" width=30 height=30/>.</p>
+
 </body>
 </html>
