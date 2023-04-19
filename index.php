@@ -12,34 +12,15 @@
     }
   }
 
-  function toggleTextInfoLM() {
-		var additionalText = document.getElementById("infoLM-text");
+  function toggleTextInfo(text_id) {
+		var additionalText = document.getElementById(text_id);
 		if (additionalText.style.display === "none") {
 			additionalText.style.display = "block";
 		} else {
 			additionalText.style.display = "none";
 		}
 	}
-/* 	<style>
-		#infoLM-text {
-			display: none;
-		}
-	</style> */
 
-
-	function toggleTextInfoIM() {
-		var additionalText = document.getElementById("infoIM-text");
-		if (additionalText.style.display === "none") {
-			additionalText.style.display = "block";
-		} else {
-			additionalText.style.display = "none";
-		}
-	}
-/* 	<style>
-		#infoIM-text {
-			display: none;
-		}
-	</style> */
 </script>
 
 
@@ -84,17 +65,23 @@
     <li><a href="https://www.transfermarkt.com/">Transfermarkt</a> - web stranica koja se bavi transferima nogometaša, statistikama, i drugim informacijama o igračima, klubovima, i ligama.</li>
   </ul>
 
-  <p>Krivulja Roberta Carlosa</p>
-  <video width="320" height="240" controls>
-    <source src="Videi\Roberto Carlos Free Kick Goal vs France 1997.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-  </video>
+<div class="video-parent">
+  <div class="video-container">
+    <p>Krivulja Roberta Carlosa</p>
+    <video width="320" height="240" controls>
+      <source src="Videi\Roberto Carlos Free Kick Goal vs France 1997.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 
-  <p>Gol Brune Petkovića protiv Brazila</p>
-  <video width="320" height="240" controls>
-    <source src="Videi\Bruno Petkovic Goal - Croatia vs Brazil 1-1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-  </video> 
+  <div class="video-container">
+    <p>Gol Brune Petkovića protiv Brazila</p>
+    <video width="320" height="240" controls>
+      <source src="Videi\Bruno Petkovic Goal - Croatia vs Brazil 1-1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
 
   <p>Reakcije Ćosića na gol Perišiča u finalu:</p>
   <audio controls>
@@ -110,18 +97,22 @@
   <p></p>
 
 
-
+  <div class="profile-container">
   <!-- slika br.1 Luka --> 
-  <img src="Slike\Luka.jpg" alt="Luka Malnar" width=55 height=110 onclick="toggleImage('slikaLuka')" id ="slikaLuka">
-	<text onclick="toggleTextInfoLM()">Luka Malnar</text>
-	<p id="infoLM-text">Mjesto rođenja: <a href="https://nasice.hr/">Našice</a><br>Datum rođenja: 26.4.2000.<br>Mjesto prebivališta: <a href="https://nasice.hr/">Našice</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>.</p>
+  <div class="profile-centered">
+    <img src="Slike/Luka.jpg" alt="Luka Malnar" width="55" height="110" onclick="toggleImage('slikaLuka')" id="slikaLuka">
+    <span onclick="toggleTextInfo('infoLM-text')">Luka Malnar</span>
+    <p id="infoLM-text">Mjesto rođenja: <a href="https://nasice.hr/">Našice</a><br>Datum rođenja: 26.4.2000.<br>Mjesto prebivališta: <a href="https://nasice.hr/">Našice</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>.<br>Bavim li se ja ovim sportom?<a href="Slike/Martin.bmp" target="_blank"> Pronađi me </a></p>
+  </div>
 
   <!-- slika br.2 Ivan --> 
-  <img src="Slike\Ivan1.jpg" alt="Ivan Maravić" width=55 height=110 onclick="toggleImage('slikaIvan')" id ="slikaIvan">
-
-  <text onclick="toggleTextInfoIM()">Ivan Maravić</text>
-	<p id="infoIM-text">Mjesto rođenja: <a href="https://www.pozega.hr/">Požega</a><br>Datum rođenja: 12.5.2000.<br>Mjesto prebivališta: <a href="https://www.kutjevo.hr/">Kutjevo</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>
-  <br>Bavim li se ja ovim sportom ili ga samo volim: Trenirao sam u mlađim godinama, ali sada samo uživam u gledanju nogometa na televiziji<img src="Slike\footballSticker.png" width=30 height=30/>.</p>
+  <div class="profile-centered">
+    <img src="Slike/Ivan1.jpg" alt="Ivan Maravić" width="55" height="110" onclick="toggleImage('slikaIvan')" id ="slikaIvan">
+    <span onclick="toggleTextInfo('infoIM-text')">Ivan Maravić</span>
+    <p id="infoIM-text">Mjesto rođenja: <a href="https://www.pozega.hr/">Požega</a><br>Datum rođenja: 12.5.2000.<br>Mjesto prebivališta: <a href="https://www.kutjevo.hr/">Kutjevo</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>
+    <br>Bavim li se ja ovim sportom ili ga samo volim: Trenirao sam u mlađim godinama, ali sada samo uživam u gledanju nogometa na televiziji<img src="Slike/footballSticker.png" width=30 height=30/>.</p>
+  </div>
+</div>
 
 </body>
 </html>

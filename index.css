@@ -22,3 +22,48 @@ body {
   video {
     margin-top: 20px;
   }
+
+  #infoLM-text {
+    display: none;
+  }
+  
+  #infoIM-text {
+    display: none;
+  }
+
+
+
+  .video-parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .video-container {
+    width: 50%; /* optional: to show two videos per row */
+    box-sizing: border-box; /* optional: to account for padding and borders */
+    padding: 10px; /* optional: to add some spacing */
+  }
+
+  .video-container p {
+    margin-bottom: -15px;
+  }
+
+  .video-container video {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .profile-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 10px;
+  }
+  
