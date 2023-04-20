@@ -1,3 +1,14 @@
+<script>
+  function toggleImageSize(img) {
+    if (img.style.width === '100%') {
+      img.style.width = '35%';
+    } else {
+      img.style.width = '100%';
+    }
+  }
+</script>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -6,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="lukinDrugiIzbor.css">
 
     <title>Tenis</title>
 </head>
@@ -33,6 +44,31 @@
         <li>Najduži teniski meč u povijesti odigrali su John Isner i Nicolas Mahut na Wimbledonu 2010. godine. Meč je trajao 11 sati i 5 minuta, a Isner je na kraju pobijedio 70-68 u petom setu. </li>
         <li>Najviši teniski teren na svijetu nalazi se na nadmorskoj visini od 3.962 metra u gradu La Paz u Boliviji. </li>
     </ul>
+
+    <h4>Najpoznatiji Hrvatski tenisači</h4>
+    <div class="image-container">
+      <figure>
+        <img src="Slike\Marin Cilic.jpg" alt="Marin Cilic">
+        <figcaption><a href="https://hr.wikipedia.org/wiki/Marin_%C4%8Cili%C4%87" style="color: black;">Marin Čilić</a></figcaption>
+      </figure>
+      <figure>
+        <img src="Slike\Goran Ivanisevic.webp" alt="Goran Ivanisevic">
+        <figcaption><a href="https://hr.wikipedia.org/wiki/Goran_Ivani%C5%A1evi%C4%87" style="color: black;">Goran Ivanisevic</a></figcaption>
+      </figure>
+      <figure>
+        <img src="Slike\Nikola Pilić.jpg" alt="Nikola Pilić">
+        <figcaption><a href="https://hr.wikipedia.org/wiki/Nikola_Pili%C4%87" style="color: black;">Nikola Pilić</a></figcaption>
+      </figure>
+	  </div>
+
+    <video width="320" height="240" controls>
+      <source src="Videi\Mansour Bahrami trick underarm serve Wimbledon 2019.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>Mansour Bahrami underarm serve at Wimbledon 2019</figcaption>
+    <p>Poznat po teniskim trikovima i zabavnom stilu igre</p>
+
+    <p></p>
     <h5>Poveznice na vanjske stranice o tenisu</h5>
     <ul>
       <li><a href="https://www.itftennis.com/">Međunarodna teniska federacija (ITF)</a>- službena organizacija koja upravlja međunarodnim teniskim turnirima</li>
@@ -40,9 +76,7 @@
       <li><a href="https://hts.hr/">Hrvatski teniski savez (HTS)</a> - Službena organizacija koja upravlja teniskim turnirima u Hrvatskoj</li>
       <li><a href="https://www.daviscup.com/">Davis Cup</a> - Međunarodno ekipno natjecanje u muškom tenisu</li>
     </ul>
-    <video width="320" height="240" controls>
-      <source src="Videi\Mansour Bahrami trick underarm serve Wimbledon 2019.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video> 
+
+
 </body>
 </html>
