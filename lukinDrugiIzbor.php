@@ -48,15 +48,15 @@
     <h4>Najpoznatiji Hrvatski tenisači</h4>
     <div class="image-container">
       <figure>
-        <img src="Slike\Marin Cilic.jpg" alt="Marin Cilic">
+        <img src="Slike\Marin Cilic.jpg" alt="Marin Cilic" onclick="toggleImageSize(this)">
         <figcaption><a href="https://hr.wikipedia.org/wiki/Marin_%C4%8Cili%C4%87" style="color: black;">Marin Čilić</a></figcaption>
       </figure>
       <figure>
-        <img src="Slike\Goran Ivanisevic.webp" alt="Goran Ivanisevic">
+        <img src="Slike\Goran Ivanisevic.webp" alt="Goran Ivanisevic" onclick="toggleImageSize(this)">
         <figcaption><a href="https://hr.wikipedia.org/wiki/Goran_Ivani%C5%A1evi%C4%87" style="color: black;">Goran Ivanisevic</a></figcaption>
       </figure>
       <figure>
-        <img src="Slike\Nikola Pilić.jpg" alt="Nikola Pilić">
+        <img src="Slike\Nikola Pilić.jpg" alt="Nikola Pilić" onclick="toggleImageSize(this)">
         <figcaption><a href="https://hr.wikipedia.org/wiki/Nikola_Pili%C4%87" style="color: black;">Nikola Pilić</a></figcaption>
       </figure>
 	  </div>
