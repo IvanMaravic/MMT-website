@@ -67,20 +67,28 @@
 
 <div class="video-parent">
   <div class="video-container">
-    <p>Krivulja Roberta Carlosa</p>
     <video width="320" height="240" controls>
       <source src="Videi\Roberto Carlos Free Kick Goal vs France 1997.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+    <figcaption>Krivulja Roberta Carlosa</figcaption>
   </div>
 
   <div class="video-container">
-    <p>Gol Brune Petkovića protiv Brazila</p>
     <video width="320" height="240" controls>
       <source src="Videi\Bruno Petkovic Goal - Croatia vs Brazil 1-1.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+    <figcaption>Gol Brune Petkovića protiv Brazila</figcaption>
   </div>
+
+    <div class="video-container">
+      
+      <video width="320" height="240" controls>
+        <source src="Videi\Zlatan Ibrahimovic's famous 30-yard bicycle kick vs England.mp4" type="video/mp4">
+    </video>
+    <figcaption>Gol Zlatana Ibrahimovica gol protiv Engleske</figcaption>
+    </div>
 </div>
 
   <p>Reakcije Ćosića na gol Perišiča u finalu:</p>
@@ -131,10 +139,10 @@
 
   <!-- slika br.2 Ivan --> 
   <div class="profile-centered">
-    <img src="Slike/Ivan1.jpg" alt="Ivan Maravić" width="55" height="110" onclick="toggleImage('slikaIvan')" id ="slikaIvan">
+    <img src="Slike/Ivan1.jpg" alt="Ivan Maravić" width="65" height="110" onclick="toggleImage('slikaIvan')" id ="slikaIvan">
     <span onclick="toggleTextInfo('infoIM-text')">Ivan Maravić</span>
     <p id="infoIM-text">Mjesto rođenja: <a href="https://www.pozega.hr/">Požega</a><br>Datum rođenja: 12.5.2000.<br>Mjesto prebivališta: <a href="https://www.kutjevo.hr/">Kutjevo</a><br>Fakultet: <a href="https://www.ferit.unios.hr/">FERIT</a>
-    <br>Bavim li se ja ovim sportom ili ga samo volim: Trenirao sam u mlađim godinama, ali sada samo uživam u gledanju nogometa na televiziji<img src="Slike/footballSticker.png" width=30 height=30/>.</p>
+    <br>Bavim li se ja ovim sportom ili ga samo volim: Da.</p>
   </div>
 </div>
 

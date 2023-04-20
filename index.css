@@ -1,112 +1,68 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    margin: 0;
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  ul {
-    text-align: left;
-  }
-  
-  h5 {
-    text-align: center;
-  }
-  
-  video {
-    margin-top: 20px;
-  }
+  margin: 0;
+}
 
-  #infoLM-text {
-    display: none;
-  }
-  
-  #infoIM-text {
-    display: none;
-  }
+h2 {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}
+
+h5 {
+  text-align: center;
+}
+
+video {
+  margin-top: 20px;
+}
+
+#infoLM-text {
+  display: none;
+}
+
+#infoIM-text {
+  display: none;
+}
 
 
 
-  .video-parent {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .video-container {
-    width: 50%; /* optional: to show two videos per row */
-    box-sizing: border-box; /* optional: to account for padding and borders */
-    padding: 10px; /* optional: to add some spacing */
-  }
+.video-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .video-container p {
-    margin-bottom: -15px;
-  }
+.video-container {
+  width: 33%; /* optional: to show two videos per row */
+  box-sizing: border-box; /* optional: to account for padding and borders */
+  padding: 10px; /* optional: to add some spacing */
+}
 
-  .video-container video {
-    display: block;
-    margin: 0 auto;
-  }
+.video-container p {
+  margin-bottom: -15px;
+}
 
-  .profile-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
-  
-  .profile-centered {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 10px;
-  }
-  
-  /*body {
-  position: relative;
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  ul {
-    text-align: left;
-  }
-  
-  h5 {
-    text-align: center;
-  } 
+.video-container video {
+  display: block;
+  margin: 0 auto;
+}
 
-  .video-container{
-    width:max-content;
-    height:max-content;
-    
-  }
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 5px;
+}
 
-  .video1{
-    position: relative;
-    right: 20px;
-  }
-
-  .video2{
-    position: absolute;
-    left: 300px;
-  }
-
-  .audio1{
-    position: sticky;
-    right: 20px;
-  }
-
-  .audio2{
-    position: flexed;
-    right: 20px;
-    top: 40px;
-  }
- */
+.profile-centered {
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin: 5px;
+}
