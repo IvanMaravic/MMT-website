@@ -96,6 +96,30 @@
   </audio>
   <p></p>
 
+<!--   <div class="video-container">
+  <div class="video1"><p>Krivulja Roberta Carlosa</p>
+      <video width="320" height="240" controls>
+        <source src="Videi\Roberto Carlos Free Kick Goal vs France 1997.mp4" type="video/mp4">
+    </video></div>
+    
+    <div class="video2">
+      <p>Gol Brune Petkovića protiv Brazila</p>
+      <video width="320" height="240" controls>
+        <source src="Videi\Bruno Petkovic Goal - Croatia vs Brazil 1-1.mp4" type="video/mp4">
+    </video> </div>
+
+    <div class="audio1">
+      <p>Reakcije Ćosića na gol Perišiča u finalu:</p>
+      <audio controls>
+        <source src="Audio\REAKCIJA DRAGE ĆOSIĆA NA GOL OD PERIŠIĆA U FINALU!.mp3" type="audio/mp3">
+    </audio></div>
+
+    <div class="audio2">
+      <p class="audio2">Gol Brune Petkovića vrijedan 17 svjetskih glasova:</p>
+      <audio controls>
+        <source src="Audio\Gol Brune Petkovića vrijedan 17 svjetskih glasova.mp3" type="audio/mp3">
+    </audio></div>
+</div> -->
 
   <div class="profile-container">
   <!-- slika br.1 Luka --> 

@@ -67,3 +67,46 @@ body {
     margin: 10px;
   }
   
+  /*body {
+  position: relative;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  ul {
+    text-align: left;
+  }
+  
+  h5 {
+    text-align: center;
+  } 
+
+  .video-container{
+    width:max-content;
+    height:max-content;
+    
+  }
+
+  .video1{
+    position: relative;
+    right: 20px;
+  }
+
+  .video2{
+    position: absolute;
+    left: 300px;
+  }
+
+  .audio1{
+    position: sticky;
+    right: 20px;
+  }
+
+  .audio2{
+    position: flexed;
+    right: 20px;
+    top: 40px;
+  }
+ */
