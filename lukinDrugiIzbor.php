@@ -48,7 +48,7 @@
     <h4>Najpoznatiji Hrvatski tenisači</h4>
     <div class="image-container">
       <figure>
-        <img src="Slike\Marin Cilic.jpg" alt="Marin Cilic" onclick="toggleImageSize(this)">
+        <img src="Slike\Marin Cilic.png" alt="Marin Cilic" onclick="toggleImageSize(this)">
         <figcaption><a href="https://hr.wikipedia.org/wiki/Marin_%C4%8Cili%C4%87" style="color: black;">Marin Čilić</a></figcaption>
       </figure>
       <figure>
