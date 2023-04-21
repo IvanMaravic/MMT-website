@@ -101,6 +101,177 @@
     </figure>
   </div>
 
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th class="rank">Poz</th>
+          <th class="team">Klub</th>
+          <th class="played">Odigr.</th>
+          <th class="wins">Pobj.</th>
+          <th class="draws">Neriješ.</th>
+          <th class="losses">Por.</th>
+          <th class="goals-for">Gol+</th>
+          <th class="goals-against">Gol-</th>
+          <th class="goal-diff">Gol razlika</th>
+          <th class="points">Bodovi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>
+            <img src="Slike\ikonice\dinamo.jpg">
+            <a href="https://gnkdinamo.hr/  ">Dinamo Zagreb</a>
+          </td>
+          <td>30</td>
+          <td>23</td>
+          <td>3</td>
+          <td>4</td>
+          <td>68</td>
+          <td>23</td>
+          <td>+45</td>
+          <td>72</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>
+            <img src="Slike\ikonice\osijek.jpg">
+            <a href="https://nk-osijek.hr/">Osijek</a>
+          </td>
+          <td>30</td>
+          <td>17</td>
+          <td>7</td>
+          <td>6</td>
+          <td>56</td>
+          <td>30</td>
+          <td>+26</td>
+          <td>58</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>
+            <img src="Slike\ikonice\gorica.jpg">
+            <a href="https://www.hnk-gorica.hr/">Gorica</a>
+          </td>
+          <td>30</td>
+          <td>15</td>
+          <td>9</td>
+          <td>6</td>
+          <td>49</td>
+          <td>26</td>
+          <td>+23</td>
+          <td>54</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>
+            <img src="Slike\ikonice\hajduk.jpg">
+            <a href="https://hajduk.hr/">Hajduk Split</a>
+          </td>
+          <td>30</td>
+          <td>14</td>
+          <td>9</td>
+          <td>7</td>
+          <td>42</td>
+          <td>30</td>
+          <td>+12</td>
+          <td>51</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>
+            <img src="Slike\ikonice\rijeka.jpg">
+            <a href="https://nk-rijeka.hr/">Rijeka</a>
+          </td>
+          <td>30</td>
+          <td>13</td>
+          <td>7</td>
+          <td>10</td>
+          <td>42</td>
+          <td>32</td>
+          <td>+10</td>
+          <td>46</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>
+            <img src="Slike\ikonice\slaven belupo.jpg">
+            <a href="https://nk-slaven-belupo.hr/">Slaven Belupo</a>
+          </td>
+          <td>30</td>
+          <td>11</td>
+          <td>10</td>
+          <td>9</td>
+          <td>36</td>
+          <td>32</td>
+          <td>+4</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>
+            <img src="Slike\ikonice\istra.jpg">
+            <a href="https://nkistra.com/">Istra 1961</a>
+          </td>
+          <td>30</td>
+          <td>10</td>
+          <td>6</td>
+          <td>14</td>
+          <td>35</td>
+          <td>46</td>
+          <td>-11</td>
+          <td>36</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>
+            <img src="Slike\ikonice\sibenik.jpg">
+            <a href="https://www.hnk-sibenik.hr/">Šibenik</a>
+          </td>
+          <td>30</td>
+          <td>8</td>
+          <td>6</td>
+          <td>16</td>
+          <td>31</td>
+          <td>52</td>
+          <td>-21</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>
+            <img src="Slike\ikonice\varazdin.jpg">
+            <a href="https://www.nk-varazdin.hr/news/">Varaždin</a>
+          </td>
+          <td>30</td>
+          <td>6</td>
+          <td>10</td>
+          <td>14</td>
+          <td>30</td>
+          <td>46</td>
+          <td>-16</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>
+            <img src="Slike\ikonice\lokomotiva.jpg">
+            <a href="https://nklokomotiva.hr/">Lokomotiva Zagreb</a>
+          </td>
+          <td>30</td>
+          <td>6</td>
+          <td>10</td>
+          <td>14</td>
+          <td>26</td>
+          <td>43</td>
+          <td>-17</td>
+          <td>28</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
   <div class="profile-container">
   <!-- slika br.1 Luka --> 
   <div class="profile-centered">
@@ -126,179 +297,6 @@
     <li><a href="https://www.goal.com/">Goal.com</a> - sportski portal koji se bavi nogometom i koji nudi vijesti, analize, i druge informacije o svjetskom nogometu.</li>
     <li><a href="https://www.transfermarkt.com/">Transfermarkt</a> - web stranica koja se bavi transferima nogometaša, statistikama, i drugim informacijama o igračima, klubovima, i ligama.</li>
   </ul>
-
-  <div class="table-wrapper">
-  <table>
-    <thead>
-      <tr>
-        <th class="rank">Poz</th>
-        <th class="team">Klub</th>
-        <th class="played">Odigr.</th>
-        <th class="wins">Pobj.</th>
-        <th class="draws">Neriješ.</th>
-        <th class="losses">Por.</th>
-        <th class="goals-for">Gol+</th>
-        <th class="goals-against">Gol-</th>
-        <th class="goal-diff">Gol razlika</th>
-        <th class="points">Bodovi</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>
-          <img src="Slike\ikonice\dinamo.jpg">
-          <a href="https://gnkdinamo.hr/  ">Dinamo Zagreb</a>
-        </td>
-        <td>30</td>
-        <td>23</td>
-        <td>3</td>
-        <td>4</td>
-        <td>68</td>
-        <td>23</td>
-        <td>+45</td>
-        <td>72</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>
-          <img src="Slike\ikonice\osijek.jpg">
-          <a href="https://nk-osijek.hr/">Osijek</a>
-        </td>
-        <td>30</td>
-        <td>17</td>
-        <td>7</td>
-        <td>6</td>
-        <td>56</td>
-        <td>30</td>
-        <td>+26</td>
-        <td>58</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>
-          <img src="Slike\ikonice\gorica.jpg">
-          <a href="https://www.hnk-gorica.hr/">Gorica</a>
-        </td>
-        <td>30</td>
-        <td>15</td>
-        <td>9</td>
-        <td>6</td>
-        <td>49</td>
-        <td>26</td>
-        <td>+23</td>
-        <td>54</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>
-          <img src="Slike\ikonice\hajduk.jpg">
-          <a href="https://hajduk.hr/">Hajduk Split</a>
-        </td>
-        <td>30</td>
-        <td>14</td>
-        <td>9</td>
-        <td>7</td>
-        <td>42</td>
-        <td>30</td>
-        <td>+12</td>
-        <td>51</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>
-          <img src="Slike\ikonice\rijeka.jpg">
-          <a href="https://nk-rijeka.hr/">Rijeka</a>
-        </td>
-        <td>30</td>
-        <td>13</td>
-        <td>7</td>
-        <td>10</td>
-        <td>42</td>
-        <td>32</td>
-        <td>+10</td>
-        <td>46</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>
-          <img src="Slike\ikonice\slaven belupo.jpg">
-          <a href="https://nk-slaven-belupo.hr/">Slaven Belupo</a>
-        </td>
-        <td>30</td>
-        <td>11</td>
-        <td>10</td>
-        <td>9</td>
-        <td>36</td>
-        <td>32</td>
-        <td>+4</td>
-        <td>43</td>
-      </tr>
-      <tr>
-      <td>7</td>
-    <td>
-      <img src="Slike\ikonice\istra.jpg">
-      <a href="https://nkistra.com/">Istra 1961</a>
-    </td>
-    <td>30</td>
-    <td>10</td>
-    <td>6</td>
-    <td>14</td>
-    <td>35</td>
-    <td>46</td>
-    <td>-11</td>
-    <td>36</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>
-      <img src="Slike\ikonice\sibenik.jpg">
-      <a href="https://www.hnk-sibenik.hr/">Šibenik</a>
-    </td>
-    <td>30</td>
-    <td>8</td>
-    <td>6</td>
-    <td>16</td>
-    <td>31</td>
-    <td>52</td>
-    <td>-21</td>
-    <td>30</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>
-      <img src="Slike\ikonice\varazdin.jpg">
-      <a href="https://www.nk-varazdin.hr/news/">Varaždin</a>
-    </td>
-    <td>30</td>
-    <td>6</td>
-    <td>10</td>
-    <td>14</td>
-    <td>30</td>
-    <td>46</td>
-    <td>-16</td>
-    <td>28</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>
-      <img src="Slike\ikonice\lokomotiva.jpg">
-      <a href="https://nklokomotiva.hr/">Lokomotiva Zagreb</a>
-    </td>
-    <td>30</td>
-    <td>6</td>
-    <td>10</td>
-    <td>14</td>
-    <td>26</td>
-    <td>43</td>
-    <td>-17</td>
-    <td>28</td>
-  </tr>
-</tbody>
-
-</table>
-</div>
-
 
 <?php include ('footer.html'); ?>
 
