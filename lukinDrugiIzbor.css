@@ -4,6 +4,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0;
+    
 }
 
 h2 {
@@ -64,7 +65,4 @@ figcaption {
     width: 100%;
   }
 }
-
-
-
 
