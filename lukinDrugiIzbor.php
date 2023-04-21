@@ -77,6 +77,15 @@
       <li><a href="https://www.daviscup.com/">Davis Cup</a> - Međunarodno ekipno natjecanje u muškom tenisu</li>
     </ul>
 
+    <footer style="background-color: #f4f3f3; color: #333333;">
+      <p>Web stranica je izrađena za vrijeme pohađanja Fakulteta elektrotehnike, računarstva <br>i informacijskih tehnologija u Osijeku u sklopu kolegija Multimedijska tehnika.</p>
+      <p>Poveznice:</p>
+      <ul>
+          <li><a href="https://www.ferit.unios.hr/" style="color: #333333;">Web stranica FERIT-a</a></li>
+          <li><a href="https://www.ferit.unios.hr/studiji/preddiplomski-studij/multimedijska-tehnika" style="color: #333333;">Multimedijska tehnika - FERIT</a></li>
+      </ul>
+    </footer>
+
 
 </body>
 </html>
