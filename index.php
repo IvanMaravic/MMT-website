@@ -53,81 +53,53 @@
       <li>Najskuplji nogometaš u povijesti je Neymar Jr., koji je 2017. godine prešao u Paris Saint-Germain za rekordnih 222 milijuna eura. </li>
       <li>Jedan od rijetkih sportova koji se igraju na gotovo svakom kontinentu, uključujući i Antarktiku gdje postoji mala liga. </li>
       <li>Nogometni klub Real Madrid najuspješniji je klub u povijesti Lige prvaka, s 13 osvojenih naslova.</li>
-      <li>Najbrži gol u povijesti nogometa postignut je nakon samo 2 sekunde na ut
       <li>Najbrži gol u povijesti nogometa postignut je nakon samo 2 sekunde na utakmici između St. Mirrena i Dundee Uniteda u škotskoj Premier ligi 1994. godine.</li>
     </ul>
-  <h5>Linkovi na nogometne stranice</h5>
-  <ul>
-    <li><a href="https://www.fifa.com/">FIFA</a> - službena stranica Svjetske nogometne federacije koja sadrži vijesti, statistike, pravila igre, i druge informacije o nogometu.</li>
-    <li><a href="https://www.uefa.com/">UEFA</a> - službena stranica Europske nogometne federacije koja pruža informacije o europskim natjecanjima, vijestima, i drugim aspektima nogometa.</li>
-    <li><a href="https://hns-cff.hr/">HNS</a> - službena stranica Hrvatskog nogometnog saveza koja sadrži informacije o natjecanjima u Hrvatskoj, reprezentaciji, i drugim aspektima hrvatskog nogometa.</li>
-    <li><a href="https://www.goal.com/">Goal.com</a> - sportski portal koji se bavi nogometom i koji nudi vijesti, analize, i druge informacije o svjetskom nogometu.</li>
-    <li><a href="https://www.transfermarkt.com/">Transfermarkt</a> - web stranica koja se bavi transferima nogometaša, statistikama, i drugim informacijama o igračima, klubovima, i ligama.</li>
-  </ul>
 
-<div class="video-parent">
-  <div class="video-container">
-    <video width="320" height="240" controls>
-      <source src="Videi\Roberto Carlos Free Kick Goal vs France 1997.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <figcaption>Krivulja Roberta Carlosa</figcaption>
-  </div>
-
-  <div class="video-container">
-    <video width="320" height="240" controls>
-      <source src="Videi\Bruno Petkovic Goal - Croatia vs Brazil 1-1.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <figcaption>Gol Brune Petkovića protiv Brazila</figcaption>
-  </div>
-
+  <h4>Najbolji golovi u povjesti nogometa</h4>
+  <div class="video-parent">
     <div class="video-container">
-      
-      <video width="320" height="240" controls>
-        <source src="Videi\Zlatan Ibrahimovic's famous 30-yard bicycle kick vs England.mp4" type="video/mp4">
-    </video>
-    <figcaption>Gol Zlatana Ibrahimovica gol protiv Engleske</figcaption>
-    </div>
-</div>
-
-  <p>Reakcije Ćosića na gol Perišiča u finalu:</p>
-  <audio controls>
-    <source src="Audio\REAKCIJA DRAGE ĆOSIĆA NA GOL OD PERIŠIĆA U FINALU!.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-  </audio>
-
-  <p>Gol Brune Petkovića vrijedan 17 svjetskih glasova:</p>
-  <audio controls>
-    <source src="Audio\Gol Brune Petkovića vrijedan 17 svjetskih glasova.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-  </audio>
-  <p></p>
-
-<!--   <div class="video-container">
-  <div class="video1"><p>Krivulja Roberta Carlosa</p>
       <video width="320" height="240" controls>
         <source src="Videi\Roberto Carlos Free Kick Goal vs France 1997.mp4" type="video/mp4">
-    </video></div>
-    
-    <div class="video2">
-      <p>Gol Brune Petkovića protiv Brazila</p>
-      <video width="320" height="240" controls>
-        <source src="Videi\Bruno Petkovic Goal - Croatia vs Brazil 1-1.mp4" type="video/mp4">
-    </video> </div>
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>Krivulja Roberta Carlosa</figcaption>
+    </div>
 
-    <div class="audio1">
-      <p>Reakcije Ćosića na gol Perišiča u finalu:</p>
+    <div class="video-container">
+      <video width="320" height="240" controls>
+        <source src="Videi\Bruno Petkovic Goal - Croatia vs Brazil 1-1.mp4" type="video/mp4"> 
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>Gol Brune Petkovića protiv Brazila</figcaption>
+    </div>
+
+    <div class="video-container">   
+      <video width="320" height="240" controls>
+        <source src="Videi\Zlatan Ibrahimovic's famous 30-yard bicycle kick vs England.mp4" type="video/mp4">
+      </video>
+      <figcaption>Gol Zlatana Ibrahimovica gol protiv Engleske</figcaption>
+    </div>
+  </div>
+
+  <h4>Zanimljivi audio zapisi</h4>
+  <div class="audio-container">
+    <figure>
       <audio controls>
         <source src="Audio\REAKCIJA DRAGE ĆOSIĆA NA GOL OD PERIŠIĆA U FINALU!.mp3" type="audio/mp3">
-    </audio></div>
-
-    <div class="audio2">
-      <p class="audio2">Gol Brune Petkovića vrijedan 17 svjetskih glasova:</p>
+        Your browser does not support the audio element.
+      </audio>
+      <figcaption>Reakcije Ćosića na gol Perišiča u finalu:</figcaption>
+    </figure>
+      
+    <figure>
       <audio controls>
         <source src="Audio\Gol Brune Petkovića vrijedan 17 svjetskih glasova.mp3" type="audio/mp3">
-    </audio></div>
-</div> -->
+        Your browser does not support the audio element.
+      </audio>
+      <figcaption>Gol Brune Petkovića vrijedan 17 svjetskih glasova:</figcaption>
+    </figure>
+  </div>
 
   <div class="profile-container">
   <!-- slika br.1 Luka --> 
@@ -145,6 +117,17 @@
     <br>Bavim li se ja ovim sportom ili ga samo volim: Da.</p>
   </div>
 </div>
+
+<h5>Linkovi na nogometne stranice</h5>
+  <ul>
+    <li><a href="https://www.fifa.com/">FIFA</a> - službena stranica Svjetske nogometne federacije koja sadrži vijesti, statistike, pravila igre, i druge informacije o nogometu.</li>
+    <li><a href="https://www.uefa.com/">UEFA</a> - službena stranica Europske nogometne federacije koja pruža informacije o europskim natjecanjima, vijestima, i drugim aspektima nogometa.</li>
+    <li><a href="https://hns-cff.hr/">HNS</a> - službena stranica Hrvatskog nogometnog saveza koja sadrži informacije o natjecanjima u Hrvatskoj, reprezentaciji, i drugim aspektima hrvatskog nogometa.</li>
+    <li><a href="https://www.goal.com/">Goal.com</a> - sportski portal koji se bavi nogometom i koji nudi vijesti, analize, i druge informacije o svjetskom nogometu.</li>
+    <li><a href="https://www.transfermarkt.com/">Transfermarkt</a> - web stranica koja se bavi transferima nogometaša, statistikama, i drugim informacijama o igračima, klubovima, i ligama.</li>
+  </ul>
+
+<?php include ('footer.html'); ?>
 
 </body>
 </html>

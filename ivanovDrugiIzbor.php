@@ -38,5 +38,8 @@
         <li><a href="https://www.hks-cbf.hr/">Hrvatski košarkaški savez</a></li>
         <li><a href="https://www.nba.com/">Nacionalna košarkaška liga (NBA)</a></li>
     </ul>
+
+    <?php include ('footer.html'); ?>
+
 </body>
 </html>

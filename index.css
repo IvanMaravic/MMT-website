@@ -1,68 +1,102 @@
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  ul {
+    text-align: left;
+  }
+  
+  h5 {
+    text-align: center;
+  }
+  
+  video {
+    margin-top: 20px;
+  }
 
-  margin: 0;
-}
-
-h2 {
-  text-align: center;
-}
-
-ul {
-  text-align: left;
-}
-
-h5 {
-  text-align: center;
-}
-
-video {
-  margin-top: 20px;
-}
-
-#infoLM-text {
-  display: none;
-}
-
-#infoIM-text {
-  display: none;
-}
-
+  #infoLM-text {
+    display: none;
+  }
+  
+  #infoIM-text {
+    display: none;
+  }
 
 
-.video-parent {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.video-container {
-  width: 33%; /* optional: to show two videos per row */
-  box-sizing: border-box; /* optional: to account for padding and borders */
-  padding: 10px; /* optional: to add some spacing */
-}
+  .video-parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -40px;
+  }
+  
+  .video-container {
+    width: 33%; /* optional: to show two videos per row */
+    box-sizing: border-box; /* optional: to account for padding and borders */
+    padding: 10px; /* optional: to add some spacing */
+  }
 
-.video-container p {
-  margin-bottom: -15px;
-}
+  .video-container p {
+    margin-bottom: -15px;
+  }
 
-.video-container video {
-  display: block;
-  margin: 0 auto;
-}
+  .video-container video {
+    display: block;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 768px) {
+    .video-container {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .video-container {
+      width: 100%;
+    }
+  }
+  
 
-.profile-container {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  margin: 5px;
+  .profile-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 5px;
 }
 
 .profile-centered {
-display: flex;
-flex-direction: column;
-gap: 10px;
-margin: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 5px;
+}
+  
+.audio-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .audio-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  figure {
+    flex-basis: calc(50% - 10px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  figure {
+    flex-basis: 100%;
+  }
 }
