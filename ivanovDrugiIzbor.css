@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    /* background-color:rgb(196, 255, 240); */
+      
+  }
+  
+  
+  
+  h2 {
+    text-align: center;
+  }
+  
+  ul {
+    text-align: left;
+  }
+  
+  h5 {
+    text-align: center;
+  }
+  
+  
+  
+  /* Set max width to prevent image overflow */
+  img {
+      max-width: 30%;
+    }
+    
+    /* Set layout to flexbox with column direction */
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+    }
+    
+    .player-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+    
+    .player-container p:first-child {
+      flex: 2;
+      margin-right: 10px;
+      text-align: right;
+    }
+    
+    .player-container img:last-child {
+      flex: 1;
+      margin-left: 10px;
+      text-align: left;
+    }
+  
+  @media screen and (max-width: 768px) {
+    figure {
+      width: 45%;
+    }
+  
+    figure img {
+      width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    figure {
+      width: 80%;
+    }
+  
+    figure img {
+      width: 100%;
+    }
+  } 
+  
+  

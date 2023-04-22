@@ -271,6 +271,7 @@
       </tbody>
     </table>
   </div>
+  <p class="update">Last update: 22.4.2023.</p>
 
   <div class="profile-container">
   <!-- slika br.1 Luka --> 
