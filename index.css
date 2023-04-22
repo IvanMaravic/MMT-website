@@ -164,3 +164,38 @@ a:hover {
   width: 5%;
 }
 
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-wrapper table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .table-wrapper th,
+  .table-wrapper td {
+    text-align: center;
+    padding: 5px;
+  }
+  .table-wrapper tr:nth-child(even) {
+    background-color: transparent;
+  }
+  .table-wrapper img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .table-wrapper td:before {
+    content: attr(data-label);
+    display: block;
+    text-align: center;
+    font-weight: bold;
+  }
+}
