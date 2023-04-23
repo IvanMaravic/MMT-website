@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="ivanovDrugiIzbor.css">
 
     <title>Košarka</title>
+
 </head>
 <body>        
     <?php include ('izbornik.html'); ?>
@@ -78,13 +79,14 @@
         <img style="width:15%; height:auto; margin-right;10px;" src="Slike\BojanBogdanovic.jpg" alt="Bojan Bogdanovic">
 </div>
 
-
-    <p style="margin-left: 10px;">1. <a href="https://hr.wikipedia.org/wiki/Dra%C5%BEen_Petrovi%C4%87">Dražen Petrović</a> bio je hrvatski košarkaš i jedan od najvećih europskih igrača u povijesti ovog sporta. Rođen je 22. listopada 1964. godine u Šibeniku, a svoju košarkašku karijeru započeo je u tamošnjem klubu Šibenka. Kasnije je igrao za Cibonu, Real Madrid te New Jersey Nets u NBA ligi. Petrović je bio poznat po svojoj izvanrednoj sposobnosti šutiranja i skakanja, kao i po svojoj strasti i posvećenosti košarci. Osvojio je brojne nagrade i priznanja tijekom svoje karijere, uključujući tri zlatne medalje na Europskim prvenstvima i srebrnu medalju na Olimpijskim igrama u Barceloni 1992. godine. Nažalost, njegova karijera prekinuta je prerano kada je poginuo u automobilskoj nesreći u Njemačkoj 7. lipnja 1993. godine, u dobi od samo 28 godina. Međutim, njegova ostavština i utjecaj na košarku i dalje žive i danas, a mnogi ga smatraju jednim od najvećih igrača u povijesti ovog sporta.</p>
-    <p style="margin-left: 10px;">2. <a href="https://hr.wikipedia.org/wiki/Toni_Kuko%C4%8D">Toni Kukoč</a> bivši hrvatski košarkaš koji je osvojio tri NBA naslova s Chicago Bullsima tijekom 90-ih godina. Igrao je i za klubove poput Juventusa i Benetton Trevisa, te za hrvatsku reprezentaciju.</p>
-    <p style="margin-left: 10px;">3. <a href="https://hr.wikipedia.org/wiki/Dino_Ra%C4%91a">Dino Rađa</a> bivši hrvatski košarkaš koji je igrao za klubove poput Cibone, Olympiakosa, Boston Celticsa i Panathinaikosa. Osvojio je brojne trofeje, uključujući tri europska prvenstva s hrvatskom reprezentacijom.</p>
-    <p style="margin-left: 10px;">4. <a href="https://hr.wikipedia.org/wiki/Kre%C5%A1imir_%C4%86osi%C4%87">Krešimir Ćosić</a> bivši hrvatski košarkaš koji je osvojio brojne naslove s Cibonom i Real Madridom. Poznat je i po tome što je bio jedan od najboljih igrača u povijesti sveučilišne košarke u SAD-u, gdje je igrao za Brigham Young University.</p>
-    <p style="margin-left: 10px;">5. <a href="https://en.wikipedia.org/wiki/Bojan_Bogdanovi%C4%87">Bojan Bogdanović</a> suvremeni hrvatski košarkaš koji igra u NBA ligi za Utah Jazz. Prije toga je igrao za klubove poput Cibone, Fenerbahçea i Brooklyn Netsa. Osvojio je brojne trofeje s klubovima i reprezentacijom.</p>
-
+<div style="margin-top: 20px; margin-left: 10px; flex-direction: column; align-items: left; justify-content: center;">
+  <p class="cro-info">1. <a href="https://hr.wikipedia.org/wiki/Dra%C5%BEen_Petrovi%C4%87">Dražen Petrović</a> bio je hrvatski košarkaš i jedan od najvećih europskih igrača u povijesti ovog sporta. Rođen je 22. listopada 1964. godine u Šibeniku, a svoju košarkašku karijeru započeo je u tamošnjem klubu Šibenka. Kasnije je igrao za Cibonu, Real Madrid te New Jersey Nets u NBA ligi. Petrović je bio poznat po svojoj izvanrednoj sposobnosti šutiranja i skakanja, kao i po svojoj strasti i posvećenosti košarci. Osvojio je brojne nagrade i priznanja tijekom svoje karijere, uključujući tri zlatne medalje na Europskim prvenstvima i srebrnu medalju na Olimpijskim igrama u Barceloni 1992. godine. Nažalost, njegova karijera prekinuta je prerano kada je poginuo u automobilskoj nesreći u Njemačkoj 7. lipnja 1993. godine, u dobi od samo 28 godina. Međutim, njegova ostavština i utjecaj na košarku i dalje žive i danas, a mnogi ga smatraju jednim od najvećih igrača u povijesti ovog sporta.</p>
+  <p class="cro-info">2. <a href="https://hr.wikipedia.org/wiki/Toni_Kuko%C4%8D">Toni Kukoč</a> bivši hrvatski košarkaš koji je osvojio tri NBA naslova s Chicago Bullsima tijekom 90-ih godina. Igrao je i za klubove poput Juventusa i Benetton Trevisa, te za hrvatsku reprezentaciju.</p>
+  <p class="cro-info">3. <a href="https://hr.wikipedia.org/wiki/Dino_Ra%C4%91a">Dino Rađa</a> bivši hrvatski košarkaš koji je igrao za klubove poput Cibone, Olympiakosa, Boston Celticsa i Panathinaikosa. Osvojio je brojne trofeje, uključujući tri europska prvenstva s hrvatskom reprezentacijom.</p>
+  <p class="cro-info">4. <a href="https://hr.wikipedia.org/wiki/Kre%C5%A1imir_%C4%86osi%C4%87">Krešimir Ćosić</a> bivši hrvatski košarkaš koji je osvojio brojne naslove s Cibonom i Real Madridom. Poznat je i po tome što je bio jedan od najboljih igrača u povijesti sveučilišne košarke u SAD-u, gdje je igrao za Brigham Young University.</p>
+  <p class="cro-info">5. <a href="https://en.wikipedia.org/wiki/Bojan_Bogdanovi%C4%87">Bojan Bogdanović</a> suvremeni hrvatski košarkaš koji igra u NBA ligi za Utah Jazz. Prije toga je igrao za klubove poput Cibone, Fenerbahçea i Brooklyn Netsa. Osvojio je brojne trofeje s klubovima i reprezentacijom.</p>
+</div>
+   
     <h5>Poveznice na vanjske stranice o košarci </h5>
     <ul>
         <li><a href="https://hr.wikipedia.org/wiki/Košarka">Košarka na Wikipediji</a></li>
