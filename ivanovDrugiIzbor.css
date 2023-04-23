@@ -28,72 +28,91 @@ h5 {
 
 
 
-/* Set max width to prevent image overflow */
 img {
     max-width: 30%;
   }
-  
-  /* Set layout to flexbox with column direction */
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+img:hover {
+  transform: scale(1.1);
+}  
 
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
   
-  .player-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-  }
+.player-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
   
-  .player-container p:first-child {
-    flex: 2;
-    margin-right: 10px;
-    text-align: right;
-  }
+.player-container p:first-child {
+  flex: 2;
+  margin-right: 10px;
+  text-align: right;
+}
   
-  .player-container img:last-child {
-    flex: 1;
-    margin-left: 10px;
-    text-align: left;
-  }
-
-@media screen and (max-width: 768px) {
-  figure {
-    width: 45%;
-  }
-
-  figure img {
-    width: 70%;
-  }
+.player-container img:last-child {
+  flex: 1;
+  margin-left: 10px;
+  text-align: left;
 }
 
-@media screen and (max-width: 480px) {
-  figure {
-    width: 80%;
-  }
-
-  figure img {
-    width: 100%;
-  }
-  img {
-    display: block;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin: 20px 0;
-  }
-} 
-
-.cro-container {
+@media (max-width: 767px) {
+  .player-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
   }
+    
+  .player-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+    
+  .player-container p {
+    text-align: left;
+  }
+}
+  
   
 
 
+.cro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.location {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.location iframe {
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 1500px;
+  height: 300px;
+}
+.location p {
+  font-size: 14px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .location {
+    flex-direction: column;
+  }
+  .location iframe {
+    height: 200px;
+  }
+}
